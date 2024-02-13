@@ -1,23 +1,31 @@
 import React from "react";
-import Image from "next/image";
-import Link from "next/link";
 import NavLink from "@/app/ui/NavLink";
+import NavDropdown from "@/app/ui/NavDropdown";
+import NavLogo from "@/app/ui/NavLogo";
 
 export default function NavBar() {
   //flex grow flex-row justify-between
   return (
     <div>
-      <Link href="/" className="flex justify-center mb-2">
-        <Image
-          src={"/AI_Pro_Logo.jpg"}
-          width={125}
-          height={125}
-          alt="AI Professionl Logo"
-        ></Image>
-      </Link>
+      <NavLogo></NavLogo>
       <div className="flex flex-row justify-center">
         <NavLink title="Welcome" href="/"></NavLink>
-        <NavLink title="Services" href="/commercial-services"></NavLink>
+        <NavDropdown title="Services">
+          <ul className="py-1">
+            <li>
+              <NavLink
+                title="Commercial Services"
+                href="/commercial-services"
+              ></NavLink>
+            </li>
+            <li>
+              <NavLink
+                title="Residential Services"
+                href="/residential-services"
+              ></NavLink>
+            </li>
+          </ul>
+        </NavDropdown>
         <NavLink
           title="Preferred Equipment Brands"
           href="/preferred-equipment-brands"

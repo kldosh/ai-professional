@@ -17,7 +17,7 @@ export default function NavLink({
     <Link
       href={href}
       className={clsx(
-        "flex w-auto items-center justify-center px-3 font-medium hover:text-ai-blue",
+        "flex w-auto items-center justify-center px-2 font-medium hover:text-ai-blue",
         {
           "text-ai-blue": pathname === href,
         },
