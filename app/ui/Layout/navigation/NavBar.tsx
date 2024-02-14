@@ -1,7 +1,7 @@
 import React from "react";
-import NavLink from "@/app/ui/NavLink";
-import NavDropdown from "@/app/ui/NavDropdown";
-import NavLogo from "@/app/ui/NavLogo";
+import NavLink from "@/app/ui/Layout/navigation/NavLink";
+import NavDropdown from "@/app/ui/Layout/navigation/NavDropdown";
+import NavLogo from "@/app/ui/Layout/navigation/NavLogo";
 
 export default function NavBar() {
   //flex grow flex-row justify-between
