@@ -16,6 +16,9 @@ const config: Config = {
       colors: {
         "ai-blue": "#43aeff",
       },
+      fontSize: {
+        "super-size": "12rem",
+      },
     },
   },
   plugins: [],
