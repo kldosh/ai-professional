@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className} antialiased min-h-screen bg-black text-white relative`}
+        className={`${inter.className} antialiased min-h-screen bg-black flex flex-col text-white relative`}
       >
         <NavBar></NavBar>
         {children}
