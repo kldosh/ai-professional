@@ -6,7 +6,7 @@ import NavLogo from "@/app/ui/Layout/navigation/NavLogo";
 export default function NavBar() {
   //flex grow flex-row justify-between
   return (
-    <div className="absolute top-0 left-0 right-0 z-10">
+    <div className="fixed top-0 left-0 right-0 z-10 bg-black">
       <NavLogo></NavLogo>
       <div className="flex flex-row justify-center">
         <NavLink title="Welcome" href="/"></NavLink>
@@ -38,7 +38,7 @@ export default function NavBar() {
         <NavLink title="About Us" href="/about-us"></NavLink>
         <NavLink title="Contact Us" href="/contact-us"></NavLink>
       </div>
-      <hr className="my-3 border-gray-700 sm:mx-auto" />
+      <hr className="mt-3 border-gray-700 sm:mx-auto" />
     </div>
   );
 }

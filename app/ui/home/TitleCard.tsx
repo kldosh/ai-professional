@@ -15,9 +15,9 @@ export default function TitleCard() {
   const secondX = useTransform(scrollYProgress, [0, 1], ["0%", "-100%"]);
 
   return (
-    <div className="h-[200vh] p-5 relative" ref={targetRef}>
+    <div className="h-[200vh] relative" ref={targetRef}>
       <div className="sticky top-0 h-screen">
-        <div className="h-full flex justify-center flex-col overflow-hidden">
+        <div className="h-full flex justify-center flex-col overflow-hidden transform translate-y-14">
           <motion.p
             className="text-super-size pl-10"
             initial={hidden}

@@ -12,11 +12,11 @@ interface Props {
 export default function VideoHero({ title, text, src }: Props) {
   return (
     <div className="h-[200vh] relative">
-      <div className="sticky top-1/2 transform -translate-y-1/2">
+      <div className="sticky top-1/2 transform -translate-y-1/3">
         <motion.div
-          className="bg-amber-50 h-auto mx-10 rounded-2xl mb-10"
-          initial={{ opacity: 0, scale: 0.5 }}
-          whileInView={{ opacity: 1, scale: 1 }}
+          className="bg-amber-50 h-auto mx-10 rounded-2xl mb-10 shadow-[0px_0px_20px_10px] shadow-ai-blue"
+          initial={{ opacity: 0, scale: 0.5, y: -20 }}
+          whileInView={{ opacity: 1, scale: 1, y: -20 }}
           transition={{ duration: 1 }}
         >
           <div className="flex justify-evenly">
