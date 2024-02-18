@@ -4,16 +4,22 @@ import {
   SaveTheDayTitle,
   SaveTheDayText,
 } from "@/app/ui/components/Animation/VideoHeroAnimations";
+import ImageCard from "@/app/ui/components/ImageCard";
+import {
+  ServicesImage,
+  ServicesText,
+  ServicesTitle,
+} from "@/app/ui/components/Animation/ImageCardAnimations";
 
 export default function Page() {
   return (
     <>
       <TitleCard></TitleCard>
-      <VideoHero
-        title={<SaveTheDayTitle />}
-        text={<SaveTheDayText />}
-        src="/AI_Professional_2022_Promo_Edit_1-HD_1080p.mp4"
-      ></VideoHero>
+      <ImageCard
+        title={<ServicesTitle />}
+        text={<ServicesText />}
+        image={<ServicesImage />}
+      ></ImageCard>
     </>
   );
 }

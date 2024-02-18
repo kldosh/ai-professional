@@ -5,6 +5,12 @@ import {
   SaveTheDayText,
   SaveTheDayTitle,
 } from "@/app/ui/components/Animation/VideoHeroAnimations";
+import ImageCard from "@/app/ui/components/ImageCard";
+import {
+  ServicesImage,
+  ServicesText,
+  ServicesTitle,
+} from "@/app/ui/components/Animation/ImageCardAnimations";
 
 export default function Home() {
   return (
@@ -15,6 +21,12 @@ export default function Home() {
         text={<SaveTheDayText />}
         src="/AI_Professional_2022_Promo_Edit_1-HD_1080p.mp4"
       ></VideoHero>
+      <div className="h-96"></div>
+      <ImageCard
+        title={<ServicesTitle />}
+        text={<ServicesText />}
+        image={<ServicesImage />}
+      ></ImageCard>
     </>
   );
 }

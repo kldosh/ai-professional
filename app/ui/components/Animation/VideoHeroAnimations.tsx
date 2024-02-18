@@ -21,7 +21,7 @@ export function SaveTheDayTitle() {
 
 export function SaveTheDayText() {
   return (
-    <p className="text-lg font-normal text-black lg:text-xl">
+    <p className="text-lg font-normal tracking-tight text-black lg:text-xl">
       From the initial site survey all the way through implementation{" "}
       <motion.span
         className="text-ai-blue font-extrabold inline-block"

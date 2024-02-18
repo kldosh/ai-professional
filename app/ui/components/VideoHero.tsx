@@ -1,7 +1,7 @@
 "use client";
 
-import React, { useRef } from "react";
-import { motion, useTransform, useScroll } from "framer-motion";
+import React from "react";
+import { motion } from "framer-motion";
 
 interface Props {
   title: React.ReactElement;
