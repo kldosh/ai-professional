@@ -38,4 +38,5 @@ next-env.d.ts
 # jetbrains
 .idea/
 
+# large files
 *.mp4
