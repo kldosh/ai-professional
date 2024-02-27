@@ -23,7 +23,7 @@ export default function Home() {
       <VideoHero
         title={<SaveTheDayTitle />}
         text={<SaveTheDayText />}
-        link={<ContactUsLink />}
+        link={<ServicesLink />}
         src="/AI_Professional_2022_Promo_Edit_1-HD_1080p.mp4"
       ></VideoHero>
       <div className="h-96"></div>
@@ -36,7 +36,7 @@ export default function Home() {
       <VideoHero
         title={<AbsoluteInstallationsTitle />}
         text={<AbsoluteInstallationsText />}
-        link={<ServicesLink />}
+        link={<ContactUsLink />}
         src="/1080p.mp4"
       ></VideoHero>
     </>

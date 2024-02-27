@@ -66,9 +66,8 @@ export function SaveTheDayText() {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 2, delay: 1.75, type: "spring", stiffness: 50 }}
       >
-        family or business
+        family or business.
       </motion.span>
-      .
     </p>
   );
 }

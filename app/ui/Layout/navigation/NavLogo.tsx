@@ -5,7 +5,7 @@ import React from "react";
 export default function NavLogo() {
   return (
     <div className="flex justify-center">
-      <Link href="/public">
+      <Link href="/">
         <Image
           src={"/AI_Pro_Logo.jpg"}
           width={125}
