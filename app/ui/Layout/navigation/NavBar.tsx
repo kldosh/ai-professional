@@ -6,21 +6,21 @@ import NavLogo from "@/app/ui/Layout/navigation/NavLogo";
 export default function NavBar() {
   //flex grow flex-row justify-between
   return (
-    <div className="fixed top-0 left-0 right-0 z-10 bg-black">
+    <div className="fixed top-0 left-0 right-0 z-20 bg-black">
       <NavLogo></NavLogo>
       <div className="flex flex-row justify-center">
         <NavLink title="Welcome" href="/"></NavLink>
-        <NavDropdown title="Services">
+        <NavDropdown title="CardGroups">
           <ul className="py-1">
             <li>
               <NavLink
-                title="Commercial Services"
+                title="Commercial CardGroups"
                 href="/commercial-services"
               ></NavLink>
             </li>
             <li>
               <NavLink
-                title="Residential Services"
+                title="Residential CardGroups"
                 href="/residential-services"
               ></NavLink>
             </li>

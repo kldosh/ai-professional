@@ -1,6 +1,8 @@
 import Hero from "@/app/ui/components/Hero/Hero";
 import React from "react";
 import Image from "next/image";
+import Card from "@/app/ui/components/Card";
+import { ResidentialServiceCards } from "@/app/ui/components/CardGroups";
 
 export default function Page() {
   return (
@@ -31,6 +33,7 @@ export default function Page() {
           />
         }
       ></Hero>
+      <ResidentialServiceCards></ResidentialServiceCards>
     </div>
   );
 }
