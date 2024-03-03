@@ -10,17 +10,17 @@ export default function NavBar() {
       <NavLogo></NavLogo>
       <div className="flex flex-row justify-center">
         <NavLink title="Welcome" href="/"></NavLink>
-        <NavDropdown title="CardGroups">
+        <NavDropdown title="Services">
           <ul className="py-1">
             <li>
               <NavLink
-                title="Commercial CardGroups"
+                title="Commercial Services"
                 href="/commercial-services"
               ></NavLink>
             </li>
             <li>
               <NavLink
-                title="Residential CardGroups"
+                title="Residential Services"
                 href="/residential-services"
               ></NavLink>
             </li>

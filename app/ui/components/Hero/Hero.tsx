@@ -13,7 +13,7 @@ export default function Hero({ title, text, image }: Props) {
         {image}
         <div className="absolute inset-0 bg-black opacity-10"></div>
       </div>
-      <div className="relative z-10 flex flex-col p-10 justify-between items-center h-full text-center">
+      <div className="relative z-10 flex flex-col p-8 justify-between items-center h-full text-center">
         {title}
         {text}
       </div>
