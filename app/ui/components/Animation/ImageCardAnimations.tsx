@@ -4,14 +4,11 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 const variants = {
-  offscreen: { y: 300 },
+  offscreen: { y: 100 },
   onscreen: {
     y: 0,
     transition: {
-      type: "spring",
-      bounce: 0.4,
-      duration: 0.8,
-      staggerChildren: 0.8,
+      ease: "easeOut",
     },
   },
 };
