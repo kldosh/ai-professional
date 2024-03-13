@@ -18,6 +18,7 @@ import {
   TVMountBrands,
 } from "@/app/ui/components/BrandSections";
 import Special from "@/app/ui/components/Special";
+import ContactForm from "@/app/ui/components/Forms";
 
 export default function Page() {
   return;

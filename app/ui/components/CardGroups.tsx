@@ -16,6 +16,13 @@ const variants1 = {
       duration: 0.4,
     },
   },
+  hover: {
+    y: -25,
+    transition: {
+      type: "spring",
+      duration: 0.4,
+    },
+  },
 };
 
 const variants2 = {
@@ -27,6 +34,13 @@ const variants2 = {
     transition: {
       type: "spring",
       delay: 0.2,
+      duration: 0.4,
+    },
+  },
+  hover: {
+    y: -25,
+    transition: {
+      type: "spring",
       duration: 0.4,
     },
   },
@@ -44,12 +58,24 @@ const variants3 = {
       duration: 0.4,
     },
   },
+  hover: {
+    y: -25,
+    transition: {
+      type: "spring",
+      duration: 0.4,
+    },
+  },
 };
 export function ResidentialServiceCards() {
   return (
     <div className="flex justify-center">
       <div className="p-14 grid grid-cols-3 gap-12">
-        <motion.div initial="offscreen" animate="onscreen" variants={variants1}>
+        <motion.div
+          initial="offscreen"
+          animate="onscreen"
+          whileHover="hover"
+          variants={variants1}
+        >
           <Card
             link="/residential-services/av-solutions"
             image={
@@ -65,7 +91,12 @@ export function ResidentialServiceCards() {
             description="Elevate your lifestyle with our expertly crafted AV experiences. From theater rooms to outdoor audio, we have the AV solutions that you need. Enjoy no-wire TV mounting, whole-house audio, smart home systems, and weather-proof outdoor TV solutions."
           ></Card>
         </motion.div>
-        <motion.div initial="offscreen" animate="onscreen" variants={variants2}>
+        <motion.div
+          initial="offscreen"
+          animate="onscreen"
+          whileHover="hover"
+          variants={variants2}
+        >
           <Card
             link="/residential-services/data-wifi-solutions"
             image={
@@ -81,7 +112,12 @@ export function ResidentialServiceCards() {
             description="Whether you're in an existing home or a new construction, we ensure reliable internet access throughout your space. Optimize your network for efficiency with Cat6 cabling. Extend your connectivity with outdoor Wi-Fi coverage. Experience the convenience of a fully connected home with our tailored solutions."
           ></Card>
         </motion.div>
-        <motion.div initial="offscreen" animate="onscreen" variants={variants3}>
+        <motion.div
+          initial="offscreen"
+          animate="onscreen"
+          whileHover="hover"
+          variants={variants3}
+        >
           <Card
             link="/residential-services/surveillance-systems"
             image={
@@ -106,7 +142,12 @@ export function CommercialServiceCards() {
   return (
     <div className="flex justify-center">
       <div className="p-14 grid grid-cols-3 gap-12">
-        <motion.div initial="offscreen" animate="onscreen" variants={variants1}>
+        <motion.div
+          initial="offscreen"
+          animate="onscreen"
+          whileHover="hover"
+          variants={variants1}
+        >
           <Card
             link="/commercial-services/av-solutions"
             image={
@@ -122,7 +163,12 @@ export function CommercialServiceCards() {
             description="Impress clients and customers with high-definition video display systems, expertly installed and supported for optimal performance. Enhance outdoor spaces with our range of outdoor TV and audio system sales, services, and installations."
           ></Card>
         </motion.div>
-        <motion.div initial="offscreen" animate="onscreen" variants={variants2}>
+        <motion.div
+          initial="offscreen"
+          animate="onscreen"
+          whileHover="hover"
+          variants={variants2}
+        >
           <Card
             link="/commercial-services/network-infrastructure"
             image={
@@ -138,7 +184,12 @@ export function CommercialServiceCards() {
             description="We specialize in data networks, offering Cat6 and fiber optic solutions for reliable connectivity. Access top-quality network equipment, including racks, routers, switches, and more, with our sales, service, and installation expertise. Extend your connectivity outdoors with our premier outdoor premise WiFi solutions."
           ></Card>
         </motion.div>
-        <motion.div initial="offscreen" animate="onscreen" variants={variants3}>
+        <motion.div
+          initial="offscreen"
+          animate="onscreen"
+          whileHover="hover"
+          variants={variants3}
+        >
           <Card
             link="/commercial-services/surveillance-systems"
             image={
@@ -154,7 +205,12 @@ export function CommercialServiceCards() {
             description="Ensure comprehensive security with our HIPAA compliant CCTV and remote viewing solutions. Whether single or multi-location, we offer tailored setups. Services include 4k and color night vision, AI powered license plate and facial recognition, and object movement detection."
           ></Card>
         </motion.div>
-        <motion.div initial="offscreen" animate="onscreen" variants={variants1}>
+        <motion.div
+          initial="offscreen"
+          animate="onscreen"
+          whileHover="hover"
+          variants={variants1}
+        >
           <Card
             link="/commercial-services/access-control-solutions"
             image={
@@ -170,7 +226,12 @@ export function CommercialServiceCards() {
             description="Secure your premises with our versatile access control solutions. We offer a range of entry options including biometric, card, key fob, keypad, code, and cellular app access. Our systems seamlessly integrate with CCTV/Surveillance systems."
           ></Card>
         </motion.div>
-        <motion.div initial="offscreen" animate="onscreen" variants={variants2}>
+        <motion.div
+          initial="offscreen"
+          animate="onscreen"
+          whileHover="hover"
+          variants={variants2}
+        >
           <Card
             link="/commercial-services/long-range-communication"
             image={
@@ -186,7 +247,12 @@ export function CommercialServiceCards() {
             description="Experience uninterrupted long range communication with our point-to-point network bridges for seamless connectivity between buildings. Enhance cell phone coverage with our commercial cell phone boosters, ensuring reliable communication in commercial spaces."
           ></Card>
         </motion.div>
-        <motion.div initial="offscreen" animate="onscreen" variants={variants3}>
+        <motion.div
+          initial="offscreen"
+          animate="onscreen"
+          whileHover="hover"
+          variants={variants3}
+        >
           <Card
             link="/commercial-services/phone-systems"
             image={
@@ -202,7 +268,12 @@ export function CommercialServiceCards() {
             description="Upgrade your communication with our IP-based phone systems. From single site to multi-site, we cater to businesses of all sizes. Seamlessly integrate remote workers and enjoy features like site-wide paging and efficient call management with voicemail and automated attendants."
           ></Card>
         </motion.div>
-        <motion.div initial="offscreen" animate="onscreen" variants={variants1}>
+        <motion.div
+          initial="offscreen"
+          animate="onscreen"
+          whileHover="hover"
+          variants={variants1}
+        >
           <Card
             link="/commercial-services/project-management"
             image={

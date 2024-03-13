@@ -1,3 +1,10 @@
+import ContactForm from "@/app/ui/components/Forms";
+
 export default function Page() {
-    return <p>Contact Us</p>
+  return (
+    <div>
+      <div className="h-48"></div>
+      <ContactForm></ContactForm>
+    </div>
+  );
 }
