@@ -7,16 +7,18 @@ interface Props {
   title: ReactElement;
   text: ReactElement;
   image: ReactElement;
+  link: ReactElement;
 }
-export default function ImageCard({ title, text, image }: Props) {
+export default function ImageCard({ title, text, image, link }: Props) {
   return (
     <div className="h-[200vh] relative">
-      <div className="sticky top-1/2 transform -translate-y-1/3">
-        <div className="mx-10">
+      <div className="sticky inset-y-40">
+        <div className="m-10 mb-96">
           <div className="flex justify-evenly gap-12">
-            <div className="flex flex-col pt-5 gap-6">
+            <div className="flex flex-col pt-5 justify-evenly gap-6 w-1/2">
               {title}
               {text}
+              {link}
             </div>
             {image}
           </div>

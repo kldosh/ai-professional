@@ -181,7 +181,7 @@ export function CommercialServiceCards() {
               ></Image>
             }
             title="Network Infrastructure"
-            description="We specialize in data networks, offering Cat6 and fiber optic solutions for reliable connectivity. Access top-quality network equipment, including racks, routers, switches, and more, with our sales, service, and installation expertise. Extend your connectivity outdoors with our premier outdoor premise WiFi solutions."
+            description="We specialize in data networks, offering Cat6 and fiber optic solutions for reliable connectivity. Access top-quality network equipment, including racks, routers, switches, and more, with our sales, service, and installation expertise. Extend your connectivity outdoors with our outdoor premise WiFi solutions."
           ></Card>
         </motion.div>
         <motion.div

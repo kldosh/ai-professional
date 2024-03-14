@@ -12,7 +12,7 @@ export function SaveTheDayTitle() {
         className="text-ai-blue inline-block"
         initial={{ opacity: 0, y: 10 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 2, delay: 1, type: "spring", stiffness: 50 }}
+        transition={{ duration: 2, delay: 0.75, type: "spring", stiffness: 50 }}
       >
         Save the Day.
       </motion.span>
@@ -28,7 +28,7 @@ export function AbsoluteInstallationsTitle() {
         className="text-ai-blue inline-block"
         initial={{ opacity: 0, y: 10 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 2, delay: 1, type: "spring", stiffness: 50 }}
+        transition={{ duration: 2, delay: 0.75, type: "spring", stiffness: 50 }}
       >
         Absolute Installations Professional.
       </motion.span>{" "}
@@ -44,7 +44,7 @@ export function SaveTheDayText() {
         className="text-ai-blue font-extrabold inline-block"
         initial={{ opacity: 0, y: 10 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 2, delay: 1.25, type: "spring", stiffness: 50 }}
+        transition={{ duration: 2, delay: 1, type: "spring", stiffness: 50 }}
       >
         and beyond
       </motion.span>
@@ -54,7 +54,7 @@ export function SaveTheDayText() {
         className="text-ai-blue font-extrabold inline-block"
         initial={{ opacity: 0, y: 10 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 2, delay: 1.5, type: "spring", stiffness: 50 }}
+        transition={{ duration: 2, delay: 1.25, type: "spring", stiffness: 50 }}
       >
         experience
       </motion.span>{" "}
@@ -64,7 +64,7 @@ export function SaveTheDayText() {
         className="text-ai-blue font-extrabold inline-block"
         initial={{ opacity: 0, y: 10 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 2, delay: 1.75, type: "spring", stiffness: 50 }}
+        transition={{ duration: 2, delay: 1.5, type: "spring", stiffness: 50 }}
       >
         family or business.
       </motion.span>
@@ -80,7 +80,7 @@ export function AbsoluteInstallationsText() {
         className="text-ai-blue font-extrabold inline-block"
         initial={{ opacity: 0, y: 10 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 2, delay: 1.25, type: "spring", stiffness: 50 }}
+        transition={{ duration: 2, delay: 1, type: "spring", stiffness: 50 }}
       >
         say a little more.
       </motion.span>{" "}
@@ -91,7 +91,7 @@ export function AbsoluteInstallationsText() {
         className="text-ai-blue font-extrabold inline-block"
         initial={{ opacity: 0, y: 10 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 2, delay: 1.5, type: "spring", stiffness: 50 }}
+        transition={{ duration: 2, delay: 1.25, type: "spring", stiffness: 50 }}
       >
         like we were never there.
       </motion.span>
@@ -105,7 +105,7 @@ export function ContactUsLink() {
       className="flex justify-center"
       initial={{ opacity: 0, y: 10 }}
       whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 2, delay: 2, type: "spring", stiffness: 50 }}
+      transition={{ duration: 2, delay: 1.5, type: "spring", stiffness: 50 }}
     >
       <Link
         href="/contact-us"

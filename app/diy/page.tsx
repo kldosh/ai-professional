@@ -25,7 +25,7 @@ export default function Page() {
 
   return (
     <div>
-      <div className="h-48"></div>
+      <div className="h-32"></div>
       <h1 className="text-center text-7xl text-ai-blue mb-5">
         DIY Tips and Tricks
       </h1>

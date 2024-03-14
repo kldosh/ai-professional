@@ -3,7 +3,7 @@ import Special from "@/app/ui/components/Special";
 export default function Page() {
   return (
     <div>
-      <div className="h-36"></div>
+      <div className="h-24"></div>
       <div className="flex flex-col divide-y divide-white gap-12 px-5">
         <Special
           title="Fourth of July Special"

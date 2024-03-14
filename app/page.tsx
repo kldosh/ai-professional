@@ -11,9 +11,10 @@ import {
 } from "@/app/ui/components/Animation/VideoHeroAnimations";
 import ImageCard from "@/app/ui/components/ImageCard";
 import {
-  ServicesImage,
-  ServicesText,
-  ServicesTitle,
+  DIYImage,
+  DIYText,
+  DIYTitle,
+  DIYLink,
 } from "@/app/ui/components/Animation/ImageCardAnimations";
 
 export default function Home() {
@@ -25,12 +26,13 @@ export default function Home() {
         text={<SaveTheDayText />}
         link={<ServicesLink />}
         src="/AI_Professional_2022_Promo_Edit_1-HD_1080p.mp4"
+        posterSrc="/superlogo.png"
       ></VideoHero>
-      <div className="h-96"></div>
       <ImageCard
-        title={<ServicesTitle />}
-        text={<ServicesText />}
-        image={<ServicesImage />}
+        title={<DIYTitle />}
+        text={<DIYText />}
+        image={<DIYImage />}
+        link={<DIYLink />}
       ></ImageCard>
       <div className="h-96"></div>
       <VideoHero
@@ -38,6 +40,7 @@ export default function Home() {
         text={<AbsoluteInstallationsText />}
         link={<ContactUsLink />}
         src="/1080p.mp4"
+        posterSrc="/AI_Pro_Logo_wide.jpg"
       ></VideoHero>
     </>
   );

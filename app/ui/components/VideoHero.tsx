@@ -8,9 +8,16 @@ interface Props {
   text: React.ReactElement;
   link: React.ReactElement;
   src: string;
+  posterSrc: string;
 }
 
-export default function VideoHero({ title, text, link, src }: Props) {
+export default function VideoHero({
+  title,
+  text,
+  link,
+  src,
+  posterSrc,
+}: Props) {
   return (
     <div className="h-[200vh] relative">
       <div className="sticky top-1/2 transform -translate-y-1/3">
@@ -22,8 +29,9 @@ export default function VideoHero({ title, text, link, src }: Props) {
         >
           <div className="flex justify-evenly">
             <video
-              className="w-1/2 m-10 rounded-2xl"
+              className="w-1/2 m-10 rounded-2xl aspect-video"
               src={src}
+              poster={posterSrc}
               controls
               preload="metadata"
             ></video>

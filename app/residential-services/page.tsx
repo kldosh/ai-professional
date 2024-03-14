@@ -7,7 +7,7 @@ import { ResidentialServiceCards } from "@/app/ui/components/CardGroups";
 export default function Page() {
   return (
     <div>
-      <div className="h-40"></div>
+      <div className="h-24"></div>
       <Hero
         title={
           <h1 className="text-7xl font-bold leading-tight mb-4 drop-shadow-outline">

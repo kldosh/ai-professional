@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Page() {
   return (
     <div>
-      <div className="h-48"></div>
+      <div className="h-32"></div>
       <h1 className="text-center text-7xl text-ai-blue">About Us</h1>
       <div className="bg-white mx-40 my-8 rounded-2xl shadow-[0px_0px_20px_5px] shadow-ai-blue">
         <div className="flex gap-6 p-6 justify-evenly">
