@@ -13,7 +13,7 @@ const youTubeChannel =
 export default function Page() {
   return (
     <div>
-      <div className="h-32"></div>
+      <div className="h-28"></div>
       <div className="flex justify-center items-center">
         <span className="text-center text-4xl">Check us out on</span>
         <Link href={youTubeChannel}>
