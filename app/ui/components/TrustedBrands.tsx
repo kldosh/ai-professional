@@ -2,31 +2,36 @@ import Image from "next/image";
 
 export default function TrustedBrands() {
   return (
-    <div className="grid grid-cols-5 gap-8 bg-white m-6 p-5 items-center justify-items-center shadow-[0px_0px_20px_5px] shadow-ai-blue rounded-2xl">
-      <KlipchLogo></KlipchLogo>
-      <AraknisLogo></AraknisLogo>
-      <DenonLogo></DenonLogo>
-      <WattBoxLogo></WattBoxLogo>
-      <GeovisionLogo></GeovisionLogo>
-      <LaborSavingDevicesLogo></LaborSavingDevicesLogo>
-      <LutronLogo></LutronLogo>
-      <ProControlLogo></ProControlLogo>
-      <NECLogo></NECLogo>
-      <SanusLogo></SanusLogo>
-      <RTILogo></RTILogo>
-      <OvrCLogo></OvrCLogo>
-      <SonosLogo></SonosLogo>
-      <JBLLogo></JBLLogo>
-      <WilsonElectronicsLogo></WilsonElectronicsLogo>
+    <div className="flex flex-col">
+      <span className="text-center mt-5 text-4xl">
+        Our Trusted Brand Partners
+      </span>
+      <div className="grid grid-cols-5 gap-8 bg-white m-6 p-5 items-center justify-items-center shadow-[0px_0px_20px_5px] shadow-ai-blue rounded-2xl">
+        <KlipschLogo></KlipschLogo>
+        <AraknisLogo></AraknisLogo>
+        <DenonLogo></DenonLogo>
+        <WattBoxLogo></WattBoxLogo>
+        <GeovisionLogo></GeovisionLogo>
+        <LaborSavingDevicesLogo></LaborSavingDevicesLogo>
+        <LutronLogo></LutronLogo>
+        <ProControlLogo></ProControlLogo>
+        <NECLogo></NECLogo>
+        <SanusLogo></SanusLogo>
+        <RTILogo></RTILogo>
+        <OvrCLogo></OvrCLogo>
+        <SonosLogo></SonosLogo>
+        <JBLLogo></JBLLogo>
+        <WilsonElectronicsLogo></WilsonElectronicsLogo>
+      </div>
     </div>
   );
 }
 
-function KlipchLogo() {
+function KlipschLogo() {
   return (
     <Image
       src="/TrustedBrands/Klipsch - Logo - black.png"
-      alt="Klipch Logo"
+      alt="Klipsch Logo"
       width={2728}
       height={617}
     ></Image>
