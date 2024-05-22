@@ -9,7 +9,7 @@ interface affiliateLink {
 }
 
 const youTubeChannel =
-  "https://www.youtube.com/@aiprofessionalcustomaudiovideo/featured";
+  "https://www.youtube.com/channel/UCQ8DbLqhEg19gt4dGnuyLoA";
 export default function Page() {
   return (
     <div>

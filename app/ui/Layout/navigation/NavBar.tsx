@@ -34,7 +34,7 @@ export default function NavBar() {
         <NavLink title="About Us" href="/about-us"></NavLink>
         <NavLink title="Contact Us" href="/contact-us"></NavLink>
       </div>
-      <hr className="mt-3 border-gray-700 sm:mx-auto" />
+      <hr className="mt-1 border-gray-700 sm:mx-auto" />
     </div>
   );
 }
