@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function TrustedBrands() {
   return (
-    <div className="grid grid-cols-5 gap-3 bg-white m-5 p-5 items-center justify-items-center rounded-2xl">
+    <div className="grid grid-cols-5 gap-8 bg-white m-6 p-5 items-center justify-items-center shadow-[0px_0px_20px_5px] shadow-ai-blue rounded-2xl">
       <KlipchLogo></KlipchLogo>
       <AraknisLogo></AraknisLogo>
       <DenonLogo></DenonLogo>
