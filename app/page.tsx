@@ -22,11 +22,11 @@ export default function Home() {
     <>
       <TitleCard></TitleCard>{" "}
       <VideoHero
-        title={<SaveTheDayTitle />}
-        text={<SaveTheDayText />}
-        link={<ServicesLink />}
-        src="/AI_Professional_2022_Promo_Edit_1-HD_1080p.mp4"
-        posterSrc="/superlogo.png"
+        title={<AbsoluteInstallationsTitle />}
+        text={<AbsoluteInstallationsText />}
+        link={<ContactUsLink />}
+        src="/1080p.mp4"
+        posterSrc="/AI_Pro_Logo_wide.jpg"
       ></VideoHero>
       <ImageCard
         title={<DIYTitle />}
@@ -36,11 +36,11 @@ export default function Home() {
       ></ImageCard>
       <div className="h-96"></div>
       <VideoHero
-        title={<AbsoluteInstallationsTitle />}
-        text={<AbsoluteInstallationsText />}
-        link={<ContactUsLink />}
-        src="/1080p.mp4"
-        posterSrc="/AI_Pro_Logo_wide.jpg"
+        title={<SaveTheDayTitle />}
+        text={<SaveTheDayText />}
+        link={<ServicesLink />}
+        src="/AI_Professional_2022_Promo_Edit_1-HD_1080p.mp4"
+        posterSrc="/superlogo.png"
       ></VideoHero>
     </>
   );

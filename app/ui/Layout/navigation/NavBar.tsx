@@ -30,11 +30,7 @@ export default function NavBar() {
           title="Preferred Equipment Brands"
           href="/preferred-equipment-brands"
         ></NavLink>
-        <NavLink title="DIY Tips and Tricks" href="/diy"></NavLink>
-        <NavLink
-          title="Discounts and Specials"
-          href="/discounts-and-specials"
-        ></NavLink>
+        <NavLink title="Videos" href="/videos"></NavLink>
         <NavLink title="About Us" href="/about-us"></NavLink>
         <NavLink title="Contact Us" href="/contact-us"></NavLink>
       </div>
