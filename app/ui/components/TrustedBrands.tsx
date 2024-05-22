@@ -2,21 +2,21 @@ import Image from "next/image";
 
 export default function TrustedBrands() {
   return (
-    <div className="grid grid-cols-5 gap-3 bg-white m-5 p-5 rounded-2xl">
+    <div className="grid grid-cols-5 gap-3 bg-white m-5 p-5 items-center justify-items-center rounded-2xl">
       <KlipchLogo></KlipchLogo>
       <AraknisLogo></AraknisLogo>
       <DenonLogo></DenonLogo>
+      <WattBoxLogo></WattBoxLogo>
       <GeovisionLogo></GeovisionLogo>
-      <JBLLogo></JBLLogo>
       <LaborSavingDevicesLogo></LaborSavingDevicesLogo>
       <LutronLogo></LutronLogo>
       <ProControlLogo></ProControlLogo>
       <NECLogo></NECLogo>
-      <OvrCLogo></OvrCLogo>
-      <RTILogo></RTILogo>
       <SanusLogo></SanusLogo>
+      <RTILogo></RTILogo>
+      <OvrCLogo></OvrCLogo>
       <SonosLogo></SonosLogo>
-      <WattBoxLogo></WattBoxLogo>
+      <JBLLogo></JBLLogo>
       <WilsonElectronicsLogo></WilsonElectronicsLogo>
     </div>
   );
