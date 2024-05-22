@@ -9,11 +9,10 @@ interface affiliateLink {
 }
 
 interface Props {
-  title: string;
   src: string;
   links: affiliateLink[];
 }
-export function YouTubeVideo({ title, src, links }: Props) {
+export function YouTubeVideo({ src, links }: Props) {
   return (
     <div className="bg-white m-3 shadow-[0px_0px_20px_5px] shadow-ai-blue rounded-2xl flex flex-col items-center">
       <iframe
@@ -91,7 +90,6 @@ export function LatestYoutubeVideos() {
       {videos.map((video, index) => (
         <YouTubeVideo
           key={index}
-          title={video.snippet.title}
           src={`https://youtube.com/embed/${video.id.videoId}?controls=0`}
           links={[]}
         ></YouTubeVideo>
