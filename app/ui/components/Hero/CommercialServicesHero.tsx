@@ -14,7 +14,7 @@ export function CommercialServicesHero() {
         <p className="text-2xl text-neutral-200 mb-8 w-2/3 text-shadow-dark">
           AI Professional provides an array of services and products. From
           project design, consultation, product recommendation and acquisition
-          to project implementation, end user t raining, and post project
+          to project implementation, end user training, and post project
           completion support. System service/maintenance contracts available.
         </p>
       }

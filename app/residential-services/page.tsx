@@ -15,7 +15,7 @@ export default function Page() {
           </h1>
         }
         text={
-          <p className="text-2xl text-white mb-8 w-2/3 text-shadow-dark">
+          <p className="text-2xl text-white mb-8 w-2/3 text-shadow-dark transition-transform translate-y-12">
             AI Professional provides an array of services and products. From
             project design, consultation, product recommendation and acquisition
             to project implementation, end user training, and post project
@@ -25,11 +25,11 @@ export default function Page() {
         }
         image={
           <Image
-            src="/Fireplace mount23.JPG"
+            src="/King11.JPG"
             alt="Background Image"
-            width={4032}
-            height={3024}
-            className="object-cover object-center w-full h-full"
+            width={2000}
+            height={1500}
+            className="object-cover transition-transform -translate-y-48"
           />
         }
       ></Hero>

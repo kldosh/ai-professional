@@ -80,10 +80,10 @@ export function ResidentialServiceCards() {
             link="/residential-services/av-solutions"
             image={
               <Image
-                src="/Fireplace mount23.JPG"
+                src="/Dyball basement After.JPG"
                 alt="Av Solutions"
-                width={4032}
-                height={3024}
+                width={600}
+                height={450}
                 className="rounded-t-lg object-cover h-72"
               />
             }
@@ -103,8 +103,8 @@ export function ResidentialServiceCards() {
               <Image
                 src="/networking-wifi1.JPG"
                 alt="Data netorking"
-                width={3024}
-                height={4032}
+                width={600}
+                height={450}
                 className="rounded-t-lg object-cover h-72"
               />
             }
@@ -124,8 +124,8 @@ export function ResidentialServiceCards() {
               <Image
                 src="/Color at night camera example 1.JPG"
                 alt="Data netorking"
-                width={3024}
-                height={4032}
+                width={600}
+                height={450}
                 className="rounded-t-lg object-cover h-72"
               />
             }
@@ -154,8 +154,8 @@ export function CommercialServiceCards() {
               <Image
                 src="/Commercial-TV-Mounting-3.JPG"
                 alt=""
-                width={4032}
-                height={3024}
+                width={600}
+                height={450}
                 className="rounded-t-lg object-cover h-72"
               ></Image>
             }
@@ -175,8 +175,8 @@ export function CommercialServiceCards() {
               <Image
                 src="/networking-wifi1.JPG"
                 alt=""
-                width={3024}
-                height={4032}
+                width={800}
+                height={600}
                 className="rounded-t-lg object-cover h-72"
               ></Image>
             }
@@ -194,10 +194,10 @@ export function CommercialServiceCards() {
             link="/commercial-services/surveillance-systems"
             image={
               <Image
-                src="/Commercial-CCTV.JPG"
+                src="/Photo Feb 27, 4 29 36 PM.png"
                 alt=""
-                width={4032}
-                height={3024}
+                width={600}
+                height={450}
                 className="rounded-t-lg object-cover h-72"
               ></Image>
             }
@@ -217,8 +217,8 @@ export function CommercialServiceCards() {
               <Image
                 src="/Cloud solutions.jpg"
                 alt=""
-                width={1920}
-                height={1040}
+                width={600}
+                height={325}
                 className="rounded-t-lg object-cover h-72"
               ></Image>
             }
@@ -236,10 +236,10 @@ export function CommercialServiceCards() {
             link="/commercial-services/long-range-communication"
             image={
               <Image
-                src="/phone-system.JPG"
+                src="/Photo Sep 23, 11 21 19 AM.jpg"
                 alt=""
-                width={3264}
-                height={2448}
+                width={600}
+                height={450}
                 className="rounded-t-lg object-cover h-72"
               ></Image>
             }
@@ -259,8 +259,8 @@ export function CommercialServiceCards() {
               <Image
                 src="/phone-system.JPG"
                 alt=""
-                width={3264}
-                height={2448}
+                width={600}
+                height={450}
                 className="rounded-t-lg object-cover h-72"
               ></Image>
             }
@@ -280,8 +280,8 @@ export function CommercialServiceCards() {
               <Image
                 src="/pool-house-1.JPG"
                 alt=""
-                width={3264}
-                height={2448}
+                width={600}
+                height={450}
                 className="rounded-t-lg object-cover h-72"
               ></Image>
             }
