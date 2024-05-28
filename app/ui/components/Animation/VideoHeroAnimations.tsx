@@ -4,18 +4,18 @@ import { motion } from "framer-motion";
 import React from "react";
 import Link from "next/link";
 
-export function SaveTheDayTitle() {
+export function SolutionsTitle() {
   return (
-    <h1 className="text-4xl text-center font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl">
-      AI Professional is here to{" "}
+    <h1 className="text-4xl text-center font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-4xl">
       <motion.span
         className="text-ai-blue inline-block"
         initial={{ opacity: 0, y: 10 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 2, delay: 0.75, type: "spring", stiffness: 50 }}
       >
-        Save the Day.
-      </motion.span>
+        Comprehensive Solutions
+      </motion.span>{" "}
+      for AV, Security, Communication and Network Systems
     </h1>
   );
 }
@@ -36,7 +36,7 @@ export function AbsoluteInstallationsTitle() {
   );
 }
 
-export function SaveTheDayText() {
+export function SolutionsText() {
   return (
     <p className="text-lg font-normal tracking-tight pr-10 text-black lg:text-xl">
       From the initial site survey all the way through implementation{" "}

@@ -5,8 +5,8 @@ import {
   AbsoluteInstallationsText,
   AbsoluteInstallationsTitle,
   ContactUsLink,
-  SaveTheDayText,
-  SaveTheDayTitle,
+  SolutionsText,
+  SolutionsTitle,
   ServicesLink,
 } from "@/app/ui/components/Animation/VideoHeroAnimations";
 import ImageCard from "@/app/ui/components/ImageCard";
@@ -25,8 +25,7 @@ export default function Home() {
         title={<AbsoluteInstallationsTitle />}
         text={<AbsoluteInstallationsText />}
         link={<ContactUsLink />}
-        src="/1080p.mp4"
-        posterSrc="/AI_Pro_Logo_wide.jpg"
+        src="https://www.youtube.com/embed/8cHCL5jLFHM?si=j2zM0iV1TWJCnXQU"
       ></VideoHero>
       <ImageCard
         title={<DIYTitle />}
@@ -36,11 +35,10 @@ export default function Home() {
       ></ImageCard>
       <div className="h-96"></div>
       <VideoHero
-        title={<SaveTheDayTitle />}
-        text={<SaveTheDayText />}
+        title={<SolutionsTitle />}
+        text={<SolutionsText />}
         link={<ServicesLink />}
-        src="/AI_Professional_2022_Promo_Edit_1-HD_1080p.mp4"
-        posterSrc="/superlogo.png"
+        src="https://www.youtube.com/embed/wltObP0JJm8?si=TFJWvGgn8QHpcqCd"
       ></VideoHero>
     </>
   );

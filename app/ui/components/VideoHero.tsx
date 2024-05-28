@@ -8,16 +8,9 @@ interface Props {
   text: React.ReactElement;
   link: React.ReactElement;
   src: string;
-  posterSrc: string;
 }
 
-export default function VideoHero({
-  title,
-  text,
-  link,
-  src,
-  posterSrc,
-}: Props) {
+export default function VideoHero({ title, text, link, src }: Props) {
   return (
     <div className="h-[200vh] relative">
       <div className="sticky top-1/2 transform -translate-y-1/3">
@@ -28,13 +21,14 @@ export default function VideoHero({
           transition={{ duration: 1 }}
         >
           <div className="flex justify-evenly">
-            <video
+            <iframe
               className="w-1/2 m-10 rounded-2xl aspect-video"
               src={src}
-              poster={posterSrc}
-              controls
-              preload="metadata"
-            ></video>
+              width={900}
+              height={506}
+              allowFullScreen={true}
+              loading="lazy"
+            ></iframe>
             <div className="flex flex-col justify-evenly">
               {title}
               {text}

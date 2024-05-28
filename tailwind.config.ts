@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import TailwindTextShadow from "tailwindcss-textshadow";
 
 const config: Config = {
   content: [
@@ -12,7 +13,10 @@ const config: Config = {
         "residential-services": "url('/FourTvs-1.JPG')",
       },
       dropShadow: {
-        outline: "0 1.2px 1.2px rgba(0,0,0,0.8)",
+        outline: "0px 1px 1px rgba(0,0,0,0.8)",
+      },
+      textShadow: {
+        dark: "2px 0px 1px #000, -2px 0px 1px #000, 0px 2px 2px #000, 0 -2px 2px #000",
       },
       colors: {
         "ai-blue": "#43aeff",
@@ -22,6 +26,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [TailwindTextShadow],
 };
 export default config;

@@ -6,12 +6,12 @@ export function CommercialServicesHero() {
   return (
     <Hero
       title={
-        <h1 className="text-7xl font-bold leading-tight mb-4 drop-shadow-outline">
+        <h1 className="text-7xl font-bold leading-tight mb-4 text-shadow-dark">
           Commercial Services
         </h1>
       }
       text={
-        <p className="text-2xl text-white mb-8 w-2/3 drop-shadow-outline">
+        <p className="text-2xl text-neutral-200 mb-8 w-2/3 text-shadow-dark">
           AI Professional provides an array of services and products. From
           project design, consultation, product recommendation and acquisition
           to project implementation, end user t raining, and post project
