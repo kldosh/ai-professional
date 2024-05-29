@@ -1,9 +1,12 @@
+"use client";
+
 import {
   ArrowLeftCircleIcon,
   ArrowRightCircleIcon,
 } from "@heroicons/react/24/outline";
 import Review from "@/app/ui/components/Reviews/Review";
 import { useState } from "react";
+import { GoogleLink } from "@/app/ui/components/Animation/VideoHeroAnimations";
 
 const reviews: string[] = [];
 reviews.push("Review 1");
@@ -41,22 +44,29 @@ export default function ReviewCarousel() {
   };
 
   return (
-    <div className="flex justify-center space-x-8">
-      <button
-        onClick={leftClicked}
-        className={leftIndex === 0 ? "hidden" : "visible"}
-      >
-        <ArrowLeftCircleIcon className="w-8"></ArrowLeftCircleIcon>
-      </button>
-      <Review text={reviews[leftIndex]}></Review>
-      <Review text={reviews[centerIndex]}></Review>
-      <Review text={reviews[rightIndex]}></Review>
-      <button
-        onClick={rightClicked}
-        className={rightIndex === reviews.length - 1 ? "hidden" : "visible"}
-      >
-        <ArrowRightCircleIcon className="w-8"></ArrowRightCircleIcon>
-      </button>
+    <div className="flex flex-col mb-28">
+      <h1 className="text-5xl text-center font-extrabold tracking-tight leading-none text-amber-50 m-8">
+        Everyone&apos;s <span className="text-ai-blue">Talking</span> About AI
+        Professional
+      </h1>
+      <div className="flex justify-center space-x-8">
+        <button
+          onClick={leftClicked}
+          className={leftIndex === 0 ? "hidden" : "visible"}
+        >
+          <ArrowLeftCircleIcon className="w-8"></ArrowLeftCircleIcon>
+        </button>
+        <Review text={reviews[leftIndex]}></Review>
+        <Review text={reviews[centerIndex]}></Review>
+        <Review text={reviews[rightIndex]}></Review>
+        <button
+          onClick={rightClicked}
+          className={rightIndex === reviews.length - 1 ? "hidden" : "visible"}
+        >
+          <ArrowRightCircleIcon className="w-8"></ArrowRightCircleIcon>
+        </button>
+      </div>
+      <GoogleLink></GoogleLink>
     </div>
   );
 }

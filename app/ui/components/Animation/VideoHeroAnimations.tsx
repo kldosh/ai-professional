@@ -119,6 +119,21 @@ export function ContactUsLink() {
   );
 }
 
+export function GoogleLink() {
+  return (
+    <div className="flex justify-center mt-8">
+      <Link
+        href="https://www.google.com/search?q=AI+Professional&stick=H4sIAAAAAAAA_-NgU1I1qLCwMDI2NDUxNk01TzKzTDW0Mqgwt7RMNjc0Nkw1TLMwTjE0WcTK7-ipEFCUn5ZaXJyZn5eYAwBDlyLNOwAAAA&hl=en-US&mat=CffvPDLXBpj7ElcBezTaAfuttwH0G2zqgcbhD2M-iQxh5gnaUn04cj4Cgy-IKvRP1OHSeSVM7IdnvaaE-8Q0OuS4LvyqQsEHflcRyeW49dtAnMkD8TOBSDw4LBQez-hujpk&authuser=0&ved=2ahUKEwi9vPDFpKyFAxVJAHkGHQdyC2EQ-MgIegQIERAd#lrd=0x882315435e7b69e1:0x799c7131e1f83d14,1,,,,"
+        className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-white rounded-lg group bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-black focus:ring-4 focus:outline-none focus:ring-cyan-200"
+      >
+        <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-black rounded-md group-hover:bg-opacity-0">
+          Leave a Review
+        </span>
+      </Link>
+    </div>
+  );
+}
+
 export function ServicesLink() {
   return (
     <motion.div

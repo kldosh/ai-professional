@@ -16,6 +16,7 @@ import {
   DIYTitle,
   DIYLink,
 } from "@/app/ui/components/Animation/ImageCardAnimations";
+import ReviewCarousel from "@/app/ui/components/Reviews/ReviewCarousel";
 
 export default function Home() {
   return (
@@ -40,6 +41,7 @@ export default function Home() {
         link={<ServicesLink />}
         src="https://www.youtube.com/embed/wltObP0JJm8?si=TFJWvGgn8QHpcqCd"
       ></VideoHero>
+      <ReviewCarousel></ReviewCarousel>
     </>
   );
 }
