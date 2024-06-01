@@ -1,25 +1,27 @@
 "use client";
 
-import Review from "@/app/ui/components/Reviews/Review";
-import {
-  CarouselProvider,
-  Slider,
-  Slide,
-  ButtonBack,
-  ButtonNext,
-} from "pure-react-carousel";
-import {
-  ArrowLeftCircleIcon,
-  ArrowRightCircleIcon,
-} from "@heroicons/react/24/outline";
-import { ReactElement, useState } from "react";
-import ReviewCarousel from "@/app/ui/components/Reviews/ReviewCarousel";
+import React, { useState } from "react";
+import Image from "next/image";
+import Gallery from "@/app/ui/components/Gallery/Gallery";
 
 export default function Page() {
-  return (
-    <div className="bg-gray-400 min-h-screen flex flex-col justify-center items-center">
-      <div className="h-36"></div>
-      <ReviewCarousel></ReviewCarousel>
-    </div>
-  );
+  const images = [
+    "/Cloud solutions.jpg",
+    "/DIY.png",
+    "/King11.JPG",
+    "/AI_Pro_Logo.jpg",
+    "/Commercial-CCTV.JPG",
+    "/Commercial-TV-Mounting-1.JPG",
+    "/Commercial-TV-Mounting-2.JPG",
+    "/Commercial-TV-Mounting-3.JPG",
+    "/Cloud solutions.jpg",
+    "/DIY.png",
+    "/King11.JPG",
+    "/AI_Pro_Logo.jpg",
+    "/Commercial-CCTV.JPG",
+    "/Commercial-TV-Mounting-1.JPG",
+    "/Commercial-TV-Mounting-2.JPG",
+  ];
+
+  return <Gallery images={images}></Gallery>;
 }

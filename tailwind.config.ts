@@ -24,6 +24,9 @@ const config: Config = {
       fontSize: {
         "super-size": "12rem",
       },
+      gridTemplateColumns: {
+        gallery: "repeat(auto-fit, minmax(384px, 1fr))",
+      },
     },
   },
   plugins: [TailwindTextShadow],
